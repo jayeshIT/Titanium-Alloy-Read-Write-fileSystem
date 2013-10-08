@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">NdVItrSF8k29atsKFW7mlvh71frOZQmi</property>
+    <property name="acs-oauth-key-production" type="string">DT3zAcsOX9NGV9igLJHBvYjOP2ONxIcI</property>
+    <property name="acs-api-key-production" type="string">E7y6j9nwGx6qLd4GuFx64R0H0IJod9JX</property>
+    <property name="acs-oauth-secret-development" type="string">AQhzkxK9N17n2xIWh1WmZT6t7GWKQBzd</property>
+    <property name="acs-oauth-key-development" type="string">6Luf6M9ZMgF7wotgROxvWA1fb7sIH4x2</property>
+    <property name="acs-api-key-development" type="string">dRz8Z5dnUV2spYWdXYMyV6m5coFuZ5sn</property>
+    <id>com.AlloyReadWriteFilesystem</id>
+    <name>AlloyReadWriteFilesystem</name>
+    <version>1.0</version>
+    <publisher>AppsDev</publisher>
+    <url>http://appcelerator.com</url>
+    <description>not specified</description>
+    <copyright>2013 by Appsdev</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>c11955c1-f540-4fb5-8233-f99f871480b9</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.1.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>
